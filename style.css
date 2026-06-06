@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+nav{
+    width: 100%;
+    background-color: #0288d1;
+    padding: 2em;
+    text-align: right;
+    
+}
+a{
+    color: #fff;
+    margin: 20px;
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.4em;
+    text-decoration: none; 
+}
+.a-menu{
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+header, img {
+    width: 100%;
+    background-color:#b3e5fc;
+}
+
+main {
+    padding:80px 120px;
+    background-color:#b3e5fc;
+}
+
+h1{
+    font: 3rem "Abhaya Libre", serif;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #009688;
+    font-weight: 600;
+}
+
+main p{
+    font-family: "Familjen Grotesk";
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+#secao-destaques{
+    background-color: #fff;
+    padding: 100px;
+}
+
+h2{
+    font: 2rem "Abhaya Libre", serif;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #009688;
+    font-weight: 600;
+}
+
+.conteiner{
+    display: flex; 
+    gap: 10px;
+    justify-content: center;  
+           
+}
+.produtos{
+    width: 24%;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #AAA;
+    text-align: left;
+    margin: 10px;
+    transition: 1s;
+}
+p{
+    font-family: "Familjen Grotesk";
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 30px;
+
+}
+.produto img {
+    width: 100%;         
+    height: auto;
+    border-radius: 50px;
+}
+#secao-login{
+    padding: 80px 120px;
+    background-color:#b3e5fc
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.login{
+    background-color: #FFF;
+    padding: 50px 30px;
+    width: 400px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    align-content: center;
+}
+.login label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: "Familjen Grotesk";
+    text-align: justify;
+}
+.login input{
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#botao-login{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    padding: auto;
+    gap: 20px;
+    border-radius: 6%;
+}
+input[type="submit"]{
+    background-color: #009688;
+    color: #FFF;
+    font-size: 14px;
+    font-family: "Familjen Grotesk";
+}
+input[type="reset"]{
+    background-color: rgb(204, 25, 25);
+    color: #FFF;
+    font-size: 14px;
+    font-family: "Familjen Grotesk";
+}
+input[type="submit"]:hover, input[type="reset"]:hover{box-shadow: 0 0 20px #777;
+}
+footer{
+    background-color: #101820;
+    padding: 20px;
+    }
+footer p, footer a {
+    text-align: center;
+    color: #FFF;
+    font-family: "Abhaya Libre", serif;
+    font-size: 1.5rem;
+}
+footer a:hover{
+    color: #c8b79d;
